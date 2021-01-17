@@ -1,8 +1,73 @@
-menu-buttons {
-    color: black;
+main {
+    background-color: #f9fafc;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h4 {
+    margin: 0;
+}
+
+li {
+    padding: 2px 0;
+}
+
+.menu-buttons {
+    height: 85px;
+}
+
+.menu-buttons a:link{
+    color: #69696a;
     text-decoration: none;
 }
 
-h1 {
-    text-align: center;
+.menu-buttons a:visited {
+    color: #69696a;
+}
+
+.menu-buttons a:hover {
+    text-decoration: underline;
+}
+
+.menu-buttons a:active {
+    color: #000;
+}
+
+.menu-buttons ul {
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#hire {
+    margin-top: 1em;
+}
+
+#hire a:link {
+    background-color: #000;
+    text-decoration: none;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 2em;
+}
+
+p {
+    border-left: 3px solid #69696a;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+#scroll a:link {
+    background-color: #000;
+    text-decoration: none;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 2em;
 }
